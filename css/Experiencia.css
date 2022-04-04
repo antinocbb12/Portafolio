@@ -1,0 +1,25 @@
+#Experiencia img {
+    background: white;
+    width: 150px;
+    height: 150px;
+    padding: 3rem;
+    border: 5px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: border-radius .3s ease, box-shadow .3s ease;
+    margin-top: 3rem;
+
+}
+#Experiencia img:hover {
+    border-radius: 0;
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+#Experiencia h4 {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+h4{
+    font-family: 'Roboto Mono', monospace;
+
+}

@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+.LogoNavBar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+nav{
+background-color: black ;
+margin-left: 0;
+height:70px ;
+}
+.NavDir{
+    background-color: #d0d3d47a;
+    border-radius: 50%;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+    float:right;
+    padding: 5px 20px 0px 0px;
+}
+.NavDir,a{
+    color: white;
+    text-decoration: none;
+}
+.NaveUl{
+    font-size: 17px;
+}
+.alogo{
+    font-size: 10px;
+}
+.smallFonts{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.alogo:hover{
+    color: blue;
+    transition: color .3s ease, color .3s ease;
+}
