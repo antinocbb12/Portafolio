@@ -10,6 +10,8 @@ header{
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.466));
+   /*  margin-top: 70px;*/
+    
 }
 
 header video{
