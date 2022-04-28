@@ -6,8 +6,8 @@ section{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    color: white;
-    background: #a1a1a1ad;
+    color: black;
+    background: #F6FBFF;
 
 }
 
@@ -23,11 +23,11 @@ section{
     max-width: 7rem;
     cursor:context-menu;
 }
-.hrSkillset {
+.thr {
     height: 2px;
     max-width: 100%;
     border: 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
 
     }
 
@@ -38,6 +38,7 @@ section{
       #Skillset span {
         width: 120px;
         background-color: rgba(0,0,0,0.75);
+        color: white;
         text-align: center;
         padding: 15px 0;
         border-radius: 15px;
