@@ -1,0 +1,76 @@
+@media (max-width:767px) 
+{
+    .LogoHeader{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .LogoNavBar{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    
+    }
+    #navBar{
+        background-color: black ;
+        margin-left: 0;
+        height:40px ;
+        width: 100%;
+        /* position: fixed;
+        top: 0;*/
+        }
+        ul,li{
+            list-style: none;
+            display: inline-block;
+            float:right;
+            padding: 5px 10px 0px 0px;
+        }
+    .NaveUl{
+        font-size: 8px;
+    }
+    .alogo{
+        font-size: 5px;
+    }
+    .logoSikllset{
+        height: 50px;
+        width: 50px;
+    }
+    header{
+        text-align: center;
+        color: white;
+        padding: 5rem 0 3rem;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.466));
+       /*  margin-top: 70px;*/
+       font-size: 10px;
+        
+    }
+    #Skillset  > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem;
+    }
+    #Proyecto button {
+        display: block;
+        position: relative;
+        margin: 1rem auto;
+        max-width: 250px;
+        overflow: hidden;
+        box-shadow: 0 0 10px black;
+        padding: 0;
+        border: none;
+        cursor: zoom-in;
+    }
+    #Proyecto img {
+        display: block;
+        max-height: 200px;
+        transition: transform ease .3s;
+    }
+    form label {
+        display: block;
+        width: 80%;
+        margin: 20px ;
+    }
+}
