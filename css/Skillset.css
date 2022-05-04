@@ -53,7 +53,7 @@ section{
       }
       #Skillset > div > div:hover span {
         opacity: 1;
-        transform: translate(-60px, 0px);
+        transform: translate(-60px, 10px);
       }
       #Skillset span:after {
         content: "";
